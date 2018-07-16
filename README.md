@@ -1,14 +1,15 @@
-# instagram-macro
-인스타그램에 접속하여 자동 좋아요 등의 기능을 수행하는 매크로입니다.
+# web crawling
 
-인스타그램에서 주기적으로 코드를 수정하여, 업데이트를 하지 않으면 그대로 사용할 수 없습니다.
+I study this code in 한경 bigdata social marketing study last winter .
 
-기능은 다음과 같습니다
-1. 타임라인에 있는 팔로잉 대상들의 사진에 순차적으로 좋아요를 하는 기능입니다.
-2. 특정 해쉬태그에 접속하여, 해쉬태그를 달아둔 게시글에 대하여 최신순으로 좋아요하는 기능입니다.
-3. 사용자가 업로드한 게시글에 좋아요 누른 사람들을 방문하여, 좋아요하는 기능입니다.
-
-아직 해결되지 않은 에러는 다음과 같습니다.
-1. 기능 1의 경우, 100개의 게시글을 좋아요하도록 명령을 하더라도, "중간에 4개 이상의 게시글에 연속으로 좋아요 되어 있으면" 에러가 발생합니다.
-2. 기능 2의 경우, 미지의 이유로 특정 해시태그에서 접속 불가가 발생합니다. 이유는 아직 분석하지 못했습니다.
-3. 기능 3의 경우, 사용자의 게시글에 좋아요 한 사람이 비공개 계정인 경우, 에러가 발생합니다. 어려운 문제는 아닙니다.
+1. 형태소 분석 & 워드클라우드 : this code could extract nouns(or sentences, pos etc) in txt.file.
+                              and then it could make word cloud. we could choose word cloud's shape and color.
+                              
+2. 인스타그램 매크로 : this code have three functions.
+                     first. it could "like" for your time line posts.
+                     second. it could search something hash-tag, and could "like" for their posts.
+                     third. it could visit and "like" who "liked" for your posts.
+                     
+3. 네이버 카페 웹 크롤러 : this code search something key-word, and could take post's "title", "content", "comments"
+                         ex) if you want every post's data that key-word is "수학" in "수만휘" naver cafe,
+                             this code could take post's "title", "content", "comments".
