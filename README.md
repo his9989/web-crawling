@@ -11,6 +11,7 @@ his9989@naver.com / haninsoo9989@gmail.com
 ### 사용 환경
 * Jupyter notebook
 * Selenium
+* Beautifulsoup
 * code directory 내에 chromedriver.exe 필요
 
 ### program
