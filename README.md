@@ -1,15 +1,19 @@
 # web crawling
 
-I study this code in 한경 bigdata social marketing study last winter .
+#### ============================================================
+Copyright ⓒ 2019.09.17 Han-InSoo
+his9989@naver.com / haninsoo9989@gmail.com
+#### ============================================================
 
-1. 형태소 분석 & 워드클라우드 : this code could extract nouns(or sentences, pos etc) in txt.file.
-                              and then it could make word cloud. we could choose word cloud's shape and color.
-                              
-2. 인스타그램 매크로 : this code have three functions.
-                     first. it could "like" for your time line posts.
-                     second. it could search something hash-tag, and could "like" for their posts.
-                     third. it could visit and "like" who "liked" for your posts.
-                     
-3. 네이버 카페 웹 크롤러 : this code search something key-word, and could take post's "title", "content", "comments"
-                         ex) if you want every post's data that key-word is "수학" in "수만휘" naver cafe,
-                             this code could take post's "title", "content", "comments".
+### 개요
+* 목적 : Web Crawling Study 및 Macro Development
+
+### 사용 환경
+* Jupyter notebook
+* Selenium
+* code directory 내에 chromedriver.exe 필요
+
+### program
+* 1) 형태소 분석, 워드클라우드 : nltk, Twitter를 이용하여 txt파일에서 형태소 분석. 이를 기반으로 word cloud 생성
+* 2) 인스타그램 매크로 : 인스타그램 자동 동작 매크로. 자동 좋아요 & 좋아요 반사 & 해시태그 검색 좋아요 등 기능 구현
+* 이 외에는 해당 사이트 크롤러들
